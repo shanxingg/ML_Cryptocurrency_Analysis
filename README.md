@@ -1,95 +1,81 @@
-# **Cryptocurrency Investment Analysis and Modeling**
+# **Cryptocurrency Analysis and Prediction**
 
+There are several paths one can take when deciding in which cryptocurrencies to invest, but a handful of these have risen to the top as the most popular options for investment, they are:
 
-This repository contains the entire analysis and modeling of cryptocurrency performance in the stock market, in the form of Jupyter notebooks.
+1. Bitcoin (BTC)
+2. Ethereum (ETH)
+3. Litecoin (LTC)
+4. Bitcoin Cash (BCH)
+5. Ripple (XRP)
+6. Monero (XMR)
+7. Zcash (ZEC)
 
+Will BitCoin become ecnomic bubble?<br>
+What other cryptocurrencies that are worth to invest in?<br>
+How to maximize your short/long term investment gains?<br>
 
+In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.<br>
 
-![CryptocurrencyGeneral](https://user-images.githubusercontent.com/31974451/37227029-ab3a6044-2390-11e8-8728-ccfe6ab07434.png)
+[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)<br>
 
-# **About**
-
-This is UC Davis BAX452 Machine Learning Autodesk Group Project.
-
-The objective of this project is **to predict 30-days price of the most popular cryptocurrencies** given their historical variations. To achieve this, several regression techniques are explored. In the end, **Gradient Boosting Regressor** yields to the best prediction result for Ripple, and **ExtraTrees Regressor** performs the best for the rest of cryptocurrencies (e.g., Bitcoin, Ethereum, Litecoin, etc.).
-
-
-Cryptocurrencies mentioned in this Notebook have the following abbreviation:
-- Bitcoin (BTC)
-- Ethereum (ETH)
-- Litecoin (LTC)
-- Bitcoin Cash (BCH)
-- Ripple (XRP)
-- Monero (XMR)
-- Zcash (ZEC)
-
-
-# **How to Navigate this Notebook**
-
-Here is the table of content for you to navigate:
-
-<a id="0"></a>
-[1. Prepare Data Set](#1)
- - [Load Python Packages](#1-1)
- - [Load and Prepare Data Set](#1-2)
-
-[2. Data Quality Assessment](#2)
- - [Check Missing Values](#2-1)
- - [Check Duplicated Values](#2-2)
-
-[3. Exploratory Data Analysis and Feature Selection](#3)
- - [1.Check market capitalization and transaction volume for each cryptocurrency we choose](#3-1)
- - [2.Check opening and closing price for each of the cryptocurrency](#3-2)
- - [3.Moving averages](#3-3)
- - [4.Check high, low, and average price for each cryptocurrency](#3-4)
- - [5.Check return ratio](#3-5)
- - [6.Candlestick charts using Plotly (BitCoin)](#3-6)
- - [7.Check Pearson correlation coefficient to prove if BitCoin price influences price of other cryptocurrencies](#3-7)
- - [8.Feature selection for prediction models](#3-8)
-
-[4. Building Models - Predicting Price for Cryptocurrencies](#4)
- - [Prepare Data for Models](#4-1)
- - [Applying Machine Learning Models](#4-2)
- - [Prices Prediction](#4-3)
-
-[5. Conclusion - Which Cryptocurrencies to Invest](#5)
- - [Prices Prediction](#5-1)
- - [Result Summary](#5-2)
- - [Interesting Findings](#5-3)
-
-[6. Limitations](#6)
-
-[7. Future Work](#7)
-
-[8. Reference](#8)
-
-
-# **Visualization Excerpts**
-
-### 1. Bitcoin Price Simulation (2017.1 - 2018.3)
-This notebook used plotly to visually show bitcoin stock price during the period from Jan. 2017 to Mar. 2018. This plot illustrates the moving average, volume of transaction, opening price, Bollinger Bands, as well as whether the price increases (blue) or decreases (grey).
-
-![plotly](https://user-images.githubusercontent.com/31974451/37195543-21878f06-2328-11e8-9d24-68d488b85e9d.png)
-
-### 2. Heatmap
-
-Below is a correlation heatmap between eight most popular cryptocurrencies. One of the interesting findings is that all of them have a **highly positive correlation coefficience** (≥0.75), indicating all the cryptocurrencies  generally move in the same direction together along with the market.
-
-Monero has the highest correlation coefficient of more than 0.85 with other cryptocurrencies. If the stocks of Bitcoin/Ethereum/Litcoin/Zcash pick up drastically, it is most likely that Monero will experience a similar boost as its fee-driven income picks up and positive earnings reports encourage investors.
-
-Source: [How does correlation affect the stock market? | Investopedia](https://www.investopedia.com/ask/answers/021716/how-does-correlation-affect-stock-market.asp#ixzz59EdIHIh9)
-
-
-![heatmap](https://user-images.githubusercontent.com/31974451/37195336-3f9ac86a-2327-11e8-8a67-09031834d063.png)
-
-**Investment Advice:** The principal is that **inclusion of negatively correlated assets in a portfolio allows individuals to reduce the overall risk while still allowing for a positive return**. Therefore, to be able to build a diversified portfolio, investors are **not** advised to put all their money into cryptocurrencies market, rather they should diversify their assets into stock market, mutual funds and bank savings.
+![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)<br><br>
 
 
 
+## **Table of Content**
 
-### 3. 30-days Bitcoin Price Prediction
+[1. Prepare Data Set](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#1)
+ - Load Python Packages
+ - Load and Prepare Data Set
+ 
+[2. Data Quality Assessment](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#2)
+ - Check Missing Values
+ - Check Duplicated Values
 
-![bitcoin prediction](https://user-images.githubusercontent.com/31974451/37195307-20924fce-2327-11e8-9027-98f854448a93.png)
+[3. Exploratory Data Analysis and Feature Engineering](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#3)
+ - Market Capitalization and Transaction Volume
+ - Price Fluctuation of Cryptocurrencies
+ - Moving Averages and Price Trend
+ - Market Prices of Cryptocurrencies
+ - Return Ratio
+ - Candlestick Charts Using Plotly (BitCoin)
 
-**Investment Advice:**
-Our 30-days forecast of bitcion price begins from Feb 25 2018, during which the predicted price is still volatile. Downward trending follows a short-term increasing momentum. Investors need to be cautious with the drastic price fluctuation as the price has already gone very high to a point of nearly $1,9000. **A short-term put option** and **a long-term call option** could be the potential preference of investors.
+[4. Building Models - Predicting Price for Cryptocurrencies](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#4)
+ - Prepare Data for Models
+ - Applying Machine Learning Models
+ - Prices Prediction
+
+[5. Conclusion - Investment Suggestion](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#5)
+ - How to maximize your short term investment gains?
+ - Whether to invest in cryptocurrency in the long term?
+
+[6. Future Work](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#6)
+
+[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)<br><br>
+
+
+
+## **Visualization Excerpts**
+
+### 1. Candlestick Chart for Bitcoin
+This notebook used plotly to visually show bitcoin stock price during the period from Jan. 2017 to Mar. 2018.<br>
+
+![Candlestick](https://user-images.githubusercontent.com/32560872/37240662-81868c64-2403-11e8-8812-ddad29c2fa9e.png)
+
+
+### 2. Price Fluctuation of Cryptocurrencies
+This notebook used matplotlib to visually show opening, closing, highest, and lowest stock price for each of the cryptocurrency.<br>
+
+![Price_Fluctuation](https://user-images.githubusercontent.com/32560872/37240755-811b5844-2404-11e8-8add-7acc17e7b9ce.png)
+
+
+### 3. Correlation Heatmap of Cryptocurrencies
+This notebook used seaborn to visually show pearson correlation coefficient to explore if BitCoin price influences price of other cryptocurrencies.<br>
+
+![Correlation_Heatmap](https://user-images.githubusercontent.com/32560872/37240849-9fe03122-2405-11e8-8a14-2e7833285f57.png)
+
+
+### 4. Prices Prediction for Bitcoin
+This notebook used matplotlib to visually show 30-days price prediction for Bitcoin.<br>
+
+![Prediction](https://user-images.githubusercontent.com/32560872/37240880-0f18a8d0-2406-11e8-92cf-e97e42fd132a.png)
