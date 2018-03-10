@@ -18,7 +18,9 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 
 [Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
 
+
 ![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)
+
 
 
 ## **Table of Content**
@@ -53,20 +55,27 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 [7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)
 
 
+
 ## **Visualization Excerpts**
 
 ### 1. Candlestick Chart for Bitcoin
 This notebook used plotly to visually show bitcoin stock price during the period from Jan. 2017 to Mar. 2018.<br>
+
 ![Candlestick](https://user-images.githubusercontent.com/32560872/37240662-81868c64-2403-11e8-8812-ddad29c2fa9e.png)
+
 
 ### 2. Price Fluctuation of Cryptocurrencies
 This notebook used matplotlib to visually show opening, closing, highest, and lowest stock price for each of the cryptocurrency.<br>
+
 ![Price_Fluctuation](https://user-images.githubusercontent.com/32560872/37240755-811b5844-2404-11e8-8add-7acc17e7b9ce.png)
+
 
 ### 3. Correlation Heatmap of Cryptocurrencies
 This notebook used seaborn to visually show pearson correlation coefficient to explore if BitCoin price influences price of other cryptocurrencies.<br>
+
 ![Correlation_Heatmap](https://user-images.githubusercontent.com/32560872/37240849-9fe03122-2405-11e8-8a14-2e7833285f57.png)
+
 
 ### 4. Prices Prediction for Bitcoin
 This notebook used matplotlib to visually show 30-days price prediction for Bitcoin.<br>
-![Prediction](https://user-images.githubusercontent.com/32560872/37240849-9fe03122-2405-11e8-8a14-2e7833285f57.png)
+![Prediction](https://user-images.githubusercontent.com/32560872/37240880-0f18a8d0-2406-11e8-92cf-e97e42fd132a.png)
