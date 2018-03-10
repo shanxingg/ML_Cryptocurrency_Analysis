@@ -19,7 +19,10 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 [Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
 
 
+
 ![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)
+
+
 
 
 
@@ -56,6 +59,8 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 
 
 
+
+
 ## **Visualization Excerpts**
 
 ### 1. Candlestick Chart for Bitcoin
@@ -78,4 +83,5 @@ This notebook used seaborn to visually show pearson correlation coefficient to e
 
 ### 4. Prices Prediction for Bitcoin
 This notebook used matplotlib to visually show 30-days price prediction for Bitcoin.<br>
+
 ![Prediction](https://user-images.githubusercontent.com/32560872/37240880-0f18a8d0-2406-11e8-92cf-e97e42fd132a.png)
