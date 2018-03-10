@@ -16,12 +16,12 @@ How to maximize your short/long term investment gains?<br>
 
 In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.<br>
 
-[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
-<br>
-![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)
+[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)<br>
+
+![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)<br><br>
 
 
-<br><br>
+
 ## **Table of Content**
 
 [1. Prepare Data Set](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#1)
@@ -51,10 +51,10 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 
 [6. Future Work](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#6)
 
-[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)
+[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)<br><br>
 
 
-<br><br>
+
 ## **Visualization Excerpts**
 
 ### 1. Candlestick Chart for Bitcoin
