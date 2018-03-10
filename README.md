@@ -10,46 +10,47 @@ There are several paths one can take when deciding in which cryptocurrencies to 
 6. Monero (XMR)
 7. Zcash (ZEC)
 
-Will BitCoin become ecnomic bubble?
-What other cryptocurrencies that are worth to invest in?
-How to maximize your short/long term investment gains?
+Will BitCoin become ecnomic bubble?<br>
+What other cryptocurrencies that are worth to invest in?<br>
+How to maximize your short/long term investment gains?<br>
 
-In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.
-[access the notebook in jupyter nbviewer](#https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
+In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.<br>
+
+[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
 
 ![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)
 
 
 # **Table of Content**
 
-1. Prepare Data Set
+[1. Prepare Data Set](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#1)
  - Load Python Packages
  - Load and Prepare Data Set
  
-[2. Data Quality Assessment](#2)
- - [Check Missing Values](#2-1)
- - [Check Duplicated Values](#2-2)
+[2. Data Quality Assessment](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#2)
+ - Check Missing Values
+ - Check Duplicated Values
 
-[3. Exploratory Data Analysis and Feature Engineering](#3)
- - [1.Market Capitalization and Transaction Volume](#3-1)
- - [2.Price Fluctuation of Cryptocurrencies](#3-2)
- - [3.Moving Averages and Price Trend](#3-3)
- - [4.Market Prices of Cryptocurrencies](#3-4)
- - [5.Return Ratio](#3-5)
- - [6.Candlestick Charts Using Plotly (BitCoin)](#3-6)
+[3. Exploratory Data Analysis and Feature Engineering](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#3)
+ - Market Capitalization and Transaction Volume
+ - Price Fluctuation of Cryptocurrencies
+ - Moving Averages and Price Trend
+ - Market Prices of Cryptocurrencies
+ - Return Ratio
+ - Candlestick Charts Using Plotly (BitCoin)
 
-[4. Building Models - Predicting Price for Cryptocurrencies](#4)
- - [Prepare Data for Models](#4-1)
- - [Applying Machine Learning Models](#4-2)
- - [Prices Prediction](#4-3)
+[4. Building Models - Predicting Price for Cryptocurrencies](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#4)
+ - Prepare Data for Models
+ - Applying Machine Learning Models
+ - Prices Prediction
 
-[5. Conclusion - Investment Suggestion](#5)
- - [How to maximize your short term investment gains?](#5-1)
- - [Whether to invest in cryptocurrency in the long term?](#5-2)
+[5. Conclusion - Investment Suggestion](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#5)
+ - How to maximize your short term investment gains?
+ - Whether to invest in cryptocurrency in the long term?
 
-[6. Future Work](#6)
+[6. Future Work](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#6)
 
-[7. Reference](#7)
+[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)
 
 
 # **Visualization Excerpts**
