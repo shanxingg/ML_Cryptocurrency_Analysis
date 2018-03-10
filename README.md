@@ -1,67 +1,55 @@
-# **Cryptocurrency Investment Analysis and Modeling**
+# **Cryptocurrency Analysis and Prediction**
+
+There are several paths one can take when deciding in which cryptocurrencies to invest, but a handful of these have risen to the top as the most popular options for investment, they are:
+
+1. Bitcoin (BTC)
+2. Ethereum (ETH)
+3. Litecoin (LTC)
+4. Bitcoin Cash (BCH)
+5. Ripple (XRP)
+6. Monero (XMR)
+7. Zcash (ZEC)
+
+Will BitCoin become ecnomic bubble?
+What other cryptocurrencies that are worth to invest in?
+How to maximize your short/long term investment gains?
+
+In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.
+[access the notebook in jupyter nbviewer](#https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)
+
+![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)
 
 
-This repository contains the entire analysis and modeling of cryptocurrency performance in the stock market, in the form of Jupyter notebooks.
+# **Table of Content**
 
-
-
-![CryptocurrencyGeneral](https://user-images.githubusercontent.com/31974451/37227029-ab3a6044-2390-11e8-8728-ccfe6ab07434.png)
-
-# **About**
-
-This is UC Davis BAX452 Machine Learning Autodesk Group Project.
-
-The objective of this project is **to predict 30-days price of the most popular cryptocurrencies** given their historical variations. To achieve this, several regression techniques are explored. In the end, **Gradient Boosting Regressor** yields to the best prediction result for Ripple, and **ExtraTrees Regressor** performs the best for the rest of cryptocurrencies (e.g., Bitcoin, Ethereum, Litecoin, etc.).
-
-
-Cryptocurrencies mentioned in this Notebook have the following abbreviation:
-- Bitcoin (BTC)
-- Ethereum (ETH)
-- Litecoin (LTC)
-- Bitcoin Cash (BCH)
-- Ripple (XRP)
-- Monero (XMR)
-- Zcash (ZEC)
-
-
-# **How to Navigate this Notebook**
-
-Here is the table of content for you to navigate:
-
-<a id="0"></a>
-[1. Prepare Data Set](#1)
- - [Load Python Packages](#1-1)
- - [Load and Prepare Data Set](#1-2)
-
+1. Prepare Data Set
+ - Load Python Packages
+ - Load and Prepare Data Set
+ 
 [2. Data Quality Assessment](#2)
  - [Check Missing Values](#2-1)
  - [Check Duplicated Values](#2-2)
 
-[3. Exploratory Data Analysis and Feature Selection](#3)
- - [1.Check market capitalization and transaction volume for each cryptocurrency we choose](#3-1)
- - [2.Check opening and closing price for each of the cryptocurrency](#3-2)
- - [3.Moving averages](#3-3)
- - [4.Check high, low, and average price for each cryptocurrency](#3-4)
- - [5.Check return ratio](#3-5)
- - [6.Candlestick charts using Plotly (BitCoin)](#3-6)
- - [7.Check Pearson correlation coefficient to prove if BitCoin price influences price of other cryptocurrencies](#3-7)
- - [8.Feature selection for prediction models](#3-8)
+[3. Exploratory Data Analysis and Feature Engineering](#3)
+ - [1.Market Capitalization and Transaction Volume](#3-1)
+ - [2.Price Fluctuation of Cryptocurrencies](#3-2)
+ - [3.Moving Averages and Price Trend](#3-3)
+ - [4.Market Prices of Cryptocurrencies](#3-4)
+ - [5.Return Ratio](#3-5)
+ - [6.Candlestick Charts Using Plotly (BitCoin)](#3-6)
 
 [4. Building Models - Predicting Price for Cryptocurrencies](#4)
  - [Prepare Data for Models](#4-1)
  - [Applying Machine Learning Models](#4-2)
  - [Prices Prediction](#4-3)
 
-[5. Conclusion - Which Cryptocurrencies to Invest](#5)
- - [Prices Prediction](#5-1)
- - [Result Summary](#5-2)
- - [Interesting Findings](#5-3)
+[5. Conclusion - Investment Suggestion](#5)
+ - [How to maximize your short term investment gains?](#5-1)
+ - [Whether to invest in cryptocurrency in the long term?](#5-2)
 
-[6. Limitations](#6)
+[6. Future Work](#6)
 
-[7. Future Work](#7)
-
-[8. Reference](#8)
+[7. Reference](#7)
 
 
 # **Visualization Excerpts**
