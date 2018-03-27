@@ -16,7 +16,7 @@ How to maximize your short/long term investment gains?<br>
 
 In this analysis report, I performed exploratory data analysis to explore the cryptocurrency market. I also used machine learning algorithms to predict 30-days price of the most popular cryptocurrencies given their historical variations.<br>
 
-[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)<br>
+[Access the notebook in jupyter nbviewer](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb)<br>
 
 ![Cryptocurrency](http://www.bankingtech.com/files/2018/01/Cryptocurrencies.jpg)<br><br>
 
@@ -42,6 +42,7 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 
 [4. Building Models - Predicting Price for Cryptocurrencies](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#4)
  - Prepare Data for Models
+ - Applying ARIMA on BitCoin
  - Applying Machine Learning Models
  - Prices Prediction
 
