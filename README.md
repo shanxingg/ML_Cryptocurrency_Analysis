@@ -24,15 +24,15 @@ In this analysis report, I performed exploratory data analysis to explore the cr
 
 ## **Table of Content**
 
-[1. Prepare Data Set](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#1)
+[1. Prepare Data Set](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#1)
  - Load Python Packages
  - Load and Prepare Data Set
  
-[2. Data Quality Assessment](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#2)
+[2. Data Quality Assessment](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#2)
  - Check Missing Values
  - Check Duplicated Values
 
-[3. Exploratory Data Analysis and Feature Engineering](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#3)
+[3. Exploratory Data Analysis and Feature Engineering](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#3)
  - Market Capitalization and Transaction Volume
  - Price Fluctuation of Cryptocurrencies
  - Moving Averages and Price Trend
@@ -40,19 +40,19 @@ In this analysis report, I performed exploratory data analysis to explore the cr
  - Return Ratio
  - Candlestick Charts Using Plotly (BitCoin)
 
-[4. Building Models - Predicting Price for Cryptocurrencies](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#4)
+[4. Building Models - Predicting Price for Cryptocurrencies](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#4)
  - Prepare Data for Models
  - Applying ARIMA on BitCoin
  - Applying Machine Learning Models
  - Prices Prediction
 
-[5. Conclusion - Investment Suggestion](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#5)
+[5. Conclusion - Investment Suggestion](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#5)
  - How to maximize your short term investment gains?
  - Whether to invest in cryptocurrency in the long term?
 
-[6. Future Work](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#6)
+[6. Future Work](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#6)
 
-[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Investments/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)<br><br>
+[7. Reference](https://nbviewer.jupyter.org/github/shanxingg/ML_Cryptocurrency_Analysis/blob/master/Analysis_of_Cryptocurrency_Investments.ipynb#7)<br><br>
 
 
 
